@@ -1,0 +1,7 @@
+# Intellij
+.idea/
+
+# Node, React
+node_modules/
+package-lock.json
+
