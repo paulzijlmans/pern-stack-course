@@ -15,6 +15,7 @@ docker build -t tododb:1.0 .\database
 ```bash
 cd server
 npm i
+cd ..
 ```
 
 * Client
@@ -22,6 +23,7 @@ npm i
 ```bash
 cd client
 npm i
+cd ..
 ```
 
 ## Run
@@ -35,7 +37,7 @@ docker run -p 5432:5432 --detach --name db tododb:1.0
 * Server
 
 ```bash
-nodemon ./server/index
+nodemon .\server\index
 ```
 
 * Client
